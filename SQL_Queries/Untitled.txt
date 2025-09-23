@@ -1,0 +1,14 @@
+# SQL_Queries/
+
+This folder contains SQL scripts used for analysis and generating insights.
+
+## Planned Files
+- `analytics_queries.sql` → 10 core queries answering key business questions:
+  - Customer demographics
+  - Purchase behavior
+  - Sales trends
+  - Product performance
+  - Store performance
+  - Currency impact
+
+The queries can be run on a database after loading the cleaned CSV files into tables.
