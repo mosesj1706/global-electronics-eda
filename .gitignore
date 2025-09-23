@@ -1,4 +1,3 @@
-# ============================================
 # Global Electronics EDA - Git Ignore Rules
 # ============================================
 
@@ -18,7 +17,7 @@ __pycache__/
 Uncleaned_CSV_files/*.csv
 
 # Full cleaned datasets (commit only small samples if needed)
-Cleaned_CSV_files/*.csv
+#Cleaned_CSV_files/*.csv
 
 # Reports (generated plots, etc.)
 Reports/*.png
