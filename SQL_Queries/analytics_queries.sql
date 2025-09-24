@@ -95,3 +95,9 @@ JOIN Products p ON s.ProductKey = p.ProductKey
 GROUP BY s."Currency Code"
 ORDER BY Revenue DESC;
 
+-- 11. Average exchange rate by currency (new)
+SELECT Currency, AVG(Exchange_Rate) AS Avg_Exchange_Rate
+FROM Exchange_Rates
+GROUP BY Currency
+ORDER BY Avg_Exchange_Rate DESC;
+
